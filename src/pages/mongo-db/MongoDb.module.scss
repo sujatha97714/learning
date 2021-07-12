@@ -1,0 +1,12 @@
+.mongo {
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    .contents {
+        flex-grow: 1;
+        min-height: 0px;
+        overflow: auto;
+    }
+}
